@@ -1,0 +1,187 @@
+.android-large-3-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mistyrose);
+  width: 360px;
+  height: 81px;
+}
+.asignatura {
+  position: absolute;
+  top: 9px;
+  left: 117px;
+  font-weight: 600;
+}
+.android-large-3-inner,
+.android-large-3-item {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  border-radius: 50%;
+  background-color: var(--color-rosybrown);
+  width: 55px;
+  height: 55px;
+}
+.android-large-3-inner {
+  left: 292px;
+}
+.back-1-icon1,
+.question-1-icon1 {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.back-1-icon1 {
+  top: 23px;
+  left: 297px;
+  height: 34.5px;
+}
+.android-large-3-child1,
+.android-large-3-child2,
+.android-large-3-child3 {
+  position: absolute;
+  top: 133px;
+  left: 40px;
+  border-radius: var(--br-6xl);
+  width: 275px;
+  height: 88px;
+}
+.android-large-3-child1 {
+  background-color: #d9d9d9;
+}
+.android-large-3-child2,
+.android-large-3-child3 {
+  background-color: var(--color-pink-100);
+}
+.android-large-3-child3 {
+  top: 263px;
+  background-color: var(--color-pink-200);
+  height: 211px;
+}
+.android-large-3-child4 {
+  position: absolute;
+  top: 347px;
+  left: 175px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-rosybrown);
+  width: 117px;
+  height: 46px;
+}
+.tema-2pdf {
+  position: absolute;
+  top: 361px;
+  left: 193px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+.android-large-3-child5,
+.android-large-3-child6 {
+  position: absolute;
+  top: 289px;
+  left: 175px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-rosybrown);
+  width: 117px;
+  height: 46px;
+}
+.android-large-3-child6 {
+  top: 410px;
+  left: 176px;
+}
+.tema-3pdf {
+  top: 423px;
+  left: 197px;
+  font-size: var(--font-size-base);
+}
+.apuntes,
+.nombre,
+.tema-1pdf,
+.tema-3pdf {
+  position: absolute;
+  font-weight: 600;
+}
+.tema-1pdf {
+  top: 303px;
+  left: 193px;
+  font-size: var(--font-size-base);
+}
+.apuntes,
+.nombre {
+  top: 332px;
+  left: 60px;
+}
+.nombre {
+  top: 163px;
+  left: 63px;
+}
+.android-large-3-child7,
+.android-large-3-child8 {
+  position: absolute;
+  background-color: var(--color-rosybrown);
+}
+.android-large-3-child7 {
+  top: 153px;
+  left: 180px;
+  border-radius: var(--br-21xl);
+  width: 117px;
+  height: 46px;
+}
+.android-large-3-child8 {
+  top: 370px;
+  left: 68px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+}
+.plus-2-icon {
+  position: absolute;
+  top: 380px;
+  left: 78px;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+.android-large-3-child9 {
+  position: absolute;
+  top: 41px;
+  left: 111px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-pink-100);
+  width: 137px;
+  height: 27px;
+}
+.bibliotecas2 {
+  position: absolute;
+  top: 45px;
+  left: 136px;
+  font-size: var(--font-size-base);
+}
+.pl1 {
+  position: absolute;
+  top: 161px;
+  left: 205px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.down-arrow-1-icon {
+  position: absolute;
+  top: 163px;
+  left: 259px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.android-large-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,222 @@
+.android-large-2-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mistyrose);
+  width: 360px;
+  height: 81px;
+}
+.tiempo-estudio {
+  position: absolute;
+  top: 9px;
+  left: 92px;
+  font-weight: 600;
+}
+.android-large-2-child1,
+.android-large-2-inner,
+.android-large-2-item {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  border-radius: 50%;
+  background-color: var(--color-rosybrown);
+  width: 55px;
+  height: 55px;
+}
+.android-large-2-child1,
+.android-large-2-inner {
+  left: 292px;
+}
+.android-large-2-child1 {
+  top: 649px;
+  left: 135px;
+  width: 90px;
+  height: 90px;
+}
+.back-2-icon {
+  position: absolute;
+  top: 23px;
+  left: 297px;
+  width: 45px;
+  height: 34.5px;
+  object-fit: cover;
+}
+.android-large-2-child2 {
+  position: absolute;
+  top: 187px;
+  left: 37px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-pink-100);
+  width: 287px;
+  height: 236px;
+}
+.introduzca-el {
+  margin: 0;
+}
+.introduzca-el-tiempo-container {
+  position: absolute;
+  top: 233px;
+  left: calc(50% - 126px);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.select {
+  position: relative;
+  line-height: 150%;
+}
+.frame-child {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--text-medium);
+  box-sizing: border-box;
+  height: 21px;
+  display: none;
+}
+.select-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.ic-expand-more-48px-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.dropdown-and-multiselect {
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  box-shadow: var(--bootstrap-focused);
+  border: 1px solid var(--primary-focused);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-9xs);
+}
+.div {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.wrapper {
+  color: var(--text-medium);
+}
+.frame-group,
+.select-wrapper,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-group {
+  align-items: center;
+  gap: var(--gap-9xs);
+}
+.dropdown-and-multiselect1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--background-enable);
+  border: 1px solid var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-9xs);
+}
+.container,
+.dropdown-and-multiselect2 {
+  display: none;
+  align-items: flex-start;
+  font-size: var(--small-size-body-regular-size);
+}
+.container {
+  flex-direction: row;
+  justify-content: flex-start;
+  color: var(--text-medium);
+}
+.dropdown-and-multiselect2 {
+  border-radius: var(--br-9xs);
+  background-color: var(--background-enable);
+  border: 1px solid var(--line-enable);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-9xs);
+}
+.time-picker {
+  width: 133px;
+  height: 211px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.time-picker-wrapper {
+  position: absolute;
+  top: 423px;
+  left: 63px;
+  width: 200px;
+  height: 249px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--font-size-17xl);
+  color: var(--text-inactive);
+  font-family: var(--small-size-body-regular);
+}
+.check-1-icon,
+.question-2-icon {
+  position: absolute;
+  top: 672px;
+  left: 155px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.question-2-icon {
+  top: 18px;
+  left: 18px;
+  width: 45px;
+  height: 45px;
+}
+.android-large-2-child3 {
+  position: absolute;
+  top: 41px;
+  left: 112px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-pink-200);
+  width: 137px;
+  height: 27px;
+}
+.bibliotecas1 {
+  position: absolute;
+  top: 45px;
+  left: 137px;
+  font-size: var(--font-size-base);
+}
+.android-large-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

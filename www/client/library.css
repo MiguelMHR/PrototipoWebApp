@@ -1,0 +1,75 @@
+.android-large-4-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-mistyrose);
+  width: 360px;
+  height: 81px;
+}
+.bibliotecas3 {
+  position: absolute;
+  top: 9px;
+  left: 117px;
+  font-weight: 600;
+}
+.android-large-4-inner,
+.android-large-4-item {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  border-radius: 50%;
+  background-color: var(--color-rosybrown);
+  width: 55px;
+  height: 55px;
+}
+.android-large-4-inner {
+  left: 292px;
+}
+.back-1-icon2,
+.question-1-icon2 {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.back-1-icon2 {
+  top: 23px;
+  left: 297px;
+  height: 34.5px;
+}
+.android-large-4-child1 {
+  position: absolute;
+  top: 41px;
+  left: 111px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-pink-100);
+  width: 137px;
+  height: 27px;
+}
+.refrescar {
+  position: absolute;
+  top: 45px;
+  left: 141px;
+  font-size: var(--font-size-base);
+}
+.popo-1-icon {
+  position: absolute;
+  top: 81px;
+  left: 0;
+  width: 360px;
+  height: 719px;
+  object-fit: cover;
+}
+.android-large-4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

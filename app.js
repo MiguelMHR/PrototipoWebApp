@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     res.send(text);    // Envía todo el texto leído del archivo HTML al navegador
   });
 });
-// Para el movil (http://localhost:3000/mando):
+// Para el movil (http://localhost:3000/movil):
 app.get('/mando', (req, res) => {
   fs.readFile(path.join(__dirname, 'public/movil.html'), 'utf-8', (err, text) => {
     res.send(text);     // Envía todo el texto leído del archivo HTML al navegador
