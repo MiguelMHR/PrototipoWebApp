@@ -59,3 +59,19 @@
 
 * Se debe añadir un botón en el desktop que enseñe una mini-pantalla de recompensas para satisfacer ese requerimiento
 * Se debe añadir una pantalla HTML en el desktop que muestre un mensaje de "esperando sesión de estudio" hasta que el cliente envíe la sesión de estudio
+
+## ¿Cómo ejecutar el proyecto?
+
+* Para poder abrir el servidor y poder empezar a usar el móvil y el ordenador, debemos seguir los siguientes pasos:
+  * Instalar **Node.JS** : [click para descargar NodeJS](https://nodejs.org/en/download)
+  * Instalar las **dependencias del proyecto : `npm install`**
+  * Iniciar el **servicio** :
+    * Si pretendes ejecutarlo normal (sin debugger) : **`node app.js`**
+    * Si pretendes usar el debugger (nodemon) : **`nodemon app.js`**
+  * Abrir la **ventana del ordenador** :
+    * Desde el navegador del ordenador : **`http://localhost:3000/desktop`**
+  * Abrir la **ventana del móvil** :
+    * Primero, desde el navegador, debes conectar el móvil: **`chrome://inspect`**
+      * Puedes hacer *port forwarding* y conectarte sin necesidad de cable
+      * Si no funciona, puedes conectar el móvil con cable, activar la depuración USB y conectar, desde el ordenador, el móvil cuando aparezca la opción en **verde**
+    * Una vez conectado, debes introducir, desde el móvil, el enlace siguiente : **`http://localhost:3000/movil`**

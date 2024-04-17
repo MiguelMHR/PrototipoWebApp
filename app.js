@@ -9,18 +9,23 @@ const app = express();                // Objeto del servidor
 app.set('port', 3000);
 
 // Carga de archivos estáticos requeridos por el servidor (FRONTEND: HTML, CSS, JS e imágenes)
-app.use(express.static(path.join(__dirname, 'public')));
+// Archivos del cliente
+app.use(express.static(path.join(__dirname, 'www/client')));
+// Archivos del servidor
+app.use(express.static(path.join(__dirname, 'www/server')));
+// Archivos compartidos
+app.use(express.static(path.join(__dirname, 'www')));
 
 // Enrutamiento del servidor (URLs del navegador)
-// Para el reproductor (http://localhost:3000/):
-app.get('/', (req, res) => {
-  fs.readFile(path.join(__dirname, 'public/ordenador.html'), 'utf-8', (err, text) => {
+// Para el ordenador (http://localhost:3000/desktop):
+app.get('/desktop', (req, res) => {
+  fs.readFile(path.join(__dirname, 'www/server/server.html'), 'utf-8', (err, text) => {
     res.send(text);    // Envía todo el texto leído del archivo HTML al navegador
   });
 });
 // Para el movil (http://localhost:3000/movil):
-app.get('/mando', (req, res) => {
-  fs.readFile(path.join(__dirname, 'public/movil.html'), 'utf-8', (err, text) => {
+app.get('/movil', (req, res) => {
+  fs.readFile(path.join(__dirname, 'www/client/home.html'), 'utf-8', (err, text) => {
     res.send(text);     // Envía todo el texto leído del archivo HTML al navegador
   });
 });
