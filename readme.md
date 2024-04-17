@@ -62,6 +62,7 @@
 
 ## ¿Cómo ejecutar el proyecto?
 
+* 
 * Para poder abrir el servidor y poder empezar a usar el móvil y el ordenador, debemos seguir los siguientes pasos:
   * Instalar **Node.JS** : [click para descargar NodeJS](https://nodejs.org/en/download)
   * Instalar las **dependencias del proyecto : `npm install`**
@@ -75,3 +76,5 @@
       * Puedes hacer *port forwarding* y conectarte sin necesidad de cable
       * Si no funciona, puedes conectar el móvil con cable, activar la depuración USB y conectar, desde el ordenador, el móvil cuando aparezca la opción en **verde**
     * Una vez conectado, debes introducir, desde el móvil, el enlace siguiente : **`http://localhost:3000/movil`**
+
+## Funcionalidades P1 - incluidas y no incluídas
