@@ -1,4 +1,4 @@
-# Prototipo Sistemas Interactivos y Ubicuos
+# Prototipo Sistemas Interactivos y Ubicuos -> G4
 
 ## Roles
 
@@ -14,12 +14,11 @@
 * **/www** : carpeta que contiene los archivos web (HTML, CSS y JS, así como recursos extras como imágenes)
   * **/cliente** : contiene los archivos HTML, CSS y JS propios del cliente
     * Por cada pantalla del cliente vamos a tener un HTML y un CSS, pero solo va a haber un JS
-      * **client.js** : archivo JS que controla los sockets y las funciones asociadas a los archivos HTML creados
-      * *index.html/css:* punto de entrada del móvil. Resulta en una pantalla donde se pide al usuario el tiempo de estudio
-      * *home.html/css:* pantalla que alberga todas las asignaturas creadas en la sesión de estudio. Nuestro "carrito de la compra"
-      * *subject.html/css:* pantalla de creación de la asignatura en esa sesión de estudio. En ella el usuario introducirá datos como *nombre*y los *archivos PDF a estudiar* y se procederá a hacer un cálculo del tiempo de estudio estimado según los archivos añadidos.
-      * *library.html/css:* pantalla extra que mostrará la ubicación del usuario y las bibliotecas más cercanas.
-      * *running.html/css:* al terminar de configurar la sesión de estudio y si el tiempo es menor que el introducido por el usuario, se irá a esta pantalla que contendrá información como un resumen de la sesión de estudio y un temporizador
+      * *index.html/css/js:* punto de entrada del móvil. Resulta en una pantalla donde se pide al usuario el tiempo de estudio
+      * *home.html/css/js:* pantalla que alberga todas las asignaturas creadas en la sesión de estudio. Nuestro "carrito de la compra"
+      * *subject.html/css/js:* pantalla de creación de la asignatura en esa sesión de estudio. En ella el usuario introducirá datos como *nombre*y los *archivos PDF a estudiar* y se procederá a hacer un cálculo del tiempo de estudio estimado según los archivos añadidos.
+      * *library.html/css/js:* pantalla extra que mostrará la ubicación del usuario y las bibliotecas más cercanas.
+      * *running.html/css/js:* al terminar de configurar la sesión de estudio y si el tiempo es menor que el introducido por el usuario, se irá a esta pantalla que contendrá información como un resumen de la sesión de estudio y un temporizador
     * **/server** : contiene los archivos propios del servidor, un HTML, un CSS y un archivo JS
 
 ## Funcionalidades del proyecto:
@@ -62,7 +61,7 @@
 
 ## ¿Cómo ejecutar el proyecto?
 
-* 
+* * Recomendado usar Google Chrome en Android y ejecutarlo con cable para reducir posibles problemas
 * Para poder abrir el servidor y poder empezar a usar el móvil y el ordenador, debemos seguir los siguientes pasos:
   * Instalar **Node.JS** : [click para descargar NodeJS](https://nodejs.org/en/download)
   * Instalar las **dependencias del proyecto : `npm install`**
