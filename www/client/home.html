@@ -18,49 +18,53 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
     />
+    <!-- API Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- API Notie -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css"/>
+    <style>.notie-container {box-shadow: none}</style>
+    <!-- API Socket.io-->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
   </head>
   <body>
-    <div class="android-large-1">
-      <div class="android-large-1-child"></div>
-      <div class="android-large-1-item"></div>
-      <div class="android-large-1-inner"></div>
-      <div class="rectangle-div"></div>
-      <div class="android-large-1-child1"></div>
-      <div class="android-large-1-child2"></div>
-      <div class="sesin-estudio">Sesión estudio</div>
-      <div class="ellipse-div"></div>
-      <div class="android-large-1-child3"></div>
-      <div class="android-large-1-child4"></div>
-      <div class="android-large-1-child5"></div>
-      <div class="android-large-1-child6"></div>
-      <img class="question-1-icon" alt="" src="../img/question-1@2x.png" />
-
-      <img class="back-1-icon" alt="" src="../img/back-1@2x.png" />
-
-      <img
-        class="microphone-1-icon"
-        alt=""
-        src="../img/microphone-1@2x.png"
-      />
-
-      <img class="play-1-icon" alt="" src="../img/play-1@2x.png" />
-
-      <img class="plus-1-icon" alt="" src="../img/plus-1@2x.png" />
-
-      <div class="pl">PL</div>
-      <div class="siu">SIU</div>
-      <div class="sd">SD</div>
-      <div class="aa">AA</div>
-      <div class="android-large-1-child7"></div>
-      <div class="android-large-1-child8"></div>
-      <div class="android-large-1-child9"></div>
-      <div class="android-large-1-child10"></div>
-      <div class="h">1H</div>
-      <div class="h1">2H</div>
-      <div class="h-12m">1H 12M</div>
-      <div class="android-large-1-child11"></div>
-      <b class="bibliotecas">Bibliotecas</b>
-      <div class="m">20M</div>
+    <!-- Estructura general -->
+    <div class="estructura_general">
+      <!-- Navbars fondos-->
+      <div class="rectangulo_arriba"></div>
+      <div class="rectangulo_abajo"></div>
+      <!-- Asignaturas -->
+      <ul class="asignaturas">
+        <li>SIU
+          <div class="tiempo">1H</div>
+        </li>
+        <li>SD
+          <div class="tiempo">1H</div>
+        </li>
+        <li>SO
+          <div class="tiempo">1H</div>
+        </li>
+      </ul>
+      <!-- Título pantalla -->
+      <div class="sesion-estudio">Sesión estudio</div>
+      <!-- Fondos iconos -->
+      <div class="fondo_interrogacion"></div>
+      <div class="fondo_atras"></div>
+      <div class="fondo_microfono"></div>
+      <div class="fondo_play"></div>
+      <div class="fondo_plus"></div>
+      <!-- Iconos -->
+      <img class="icono_interrogacion" alt="" src="../img/question-1@2x.png" />
+      <img class="icono_atras" alt="" src="../img/back-1@2x.png" />
+      <img class="icono_microfono" alt="" src="../img/microphone-1@2x.png" />
+      <img class="icono_play" alt="" src="../img/play-1@2x.png" />
+      <img class="icono_plus" alt="" src="../img/plus-1@2x.png" />
+      <!-- Fondo bibliotecas -->
+      <div class="fondo_bibliotecas"></div>
+      <!-- Texto bibliotecas -->      
+      <div class="bibliotecas">Bibliotecas</div>
     </div>
+    <script src="./client.js"></script>
+    <!-- API Notie -->
+    <script src="https://unpkg.com/notie"></script>
   </body>
 </html>
