@@ -22,23 +22,54 @@
   width: 55px;
   height: 55px;
 }
+
+.nombre2{
+  position: absolute;
+  font-weight: 600;
+
+  top: 280px;
+  left: 63px;
+}
+
+.android-large-3-child11,
+.android-large-3-child12 {
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-pink-200);
+  width: 275px;
+  height: 88px;
+}
+
+.android-large-3-child12 {
+  top: 250x;
+}
+
+
+.android-large-1-item {
+  position: absolute;
+  top: 719px;
+  left: 0;
+  background-color: var(--color-mistyrose);
+  width: 360px;
+  height: 81px;
+}
+
+
 .android-large-3-inner {
   left: 292px;
 }
-.back-1-icon1,
-.question-1-icon1 {
-  position: absolute;
-  top: 18px;
-  left: 18px;
-  width: 45px;
-  height: 45px;
+.back-1-icon1{
+  height: 32px;
   object-fit: cover;
 }
-.back-1-icon1 {
-  top: 23px;
-  left: 297px;
-  height: 34.5px;
+.question-1-icon1 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
 }
+
 .android-large-3-child1,
 .android-large-3-child2,
 .android-large-3-child3 {
@@ -49,6 +80,21 @@
   width: 275px;
   height: 88px;
 }
+
+.android-large-3-child13,
+.android-large-3-child8 {
+  position: absolute;
+  background-color: var(--color-rosybrown);
+}
+.android-large-3-child13 {
+  top: 270px;
+  left: 200px;
+  border-radius: var(--br-21xl);
+  width: 100px;
+  height: 46px;
+}
+
+
 .android-large-3-child1 {
   background-color: #d9d9d9;
 }
@@ -70,13 +116,8 @@
   width: 117px;
   height: 46px;
 }
-.tema-2pdf {
-  position: absolute;
-  top: 361px;
-  left: 193px;
-  font-size: var(--font-size-base);
-  font-weight: 600;
-}
+
+
 .android-large-3-child5,
 .android-large-3-child6 {
   position: absolute;
@@ -91,29 +132,34 @@
   top: 410px;
   left: 176px;
 }
-.tema-3pdf {
-  top: 423px;
-  left: 197px;
-  font-size: var(--font-size-base);
+
+.android-large-1-child4,
+.android-large-1-child5,
+.android-large-1-child6,
+.ellipse-div {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  border-radius: 50%;
+  background-color: var(--color-rosybrown);
+  width: 55px;
+  height: 55px;
 }
-.apuntes,
-.nombre,
-.tema-1pdf,
-.tema-3pdf {
+.android-large-1-child4,
+.android-large-1-child6 {
+  top: 732px;
+  left: 13px;
+}
+.android-large-1-child6 {
+  left: 292px;
+}
+
+
+
+.nombre{
   position: absolute;
   font-weight: 600;
-}
-.tema-1pdf {
-  top: 303px;
-  left: 193px;
-  font-size: var(--font-size-base);
-}
-.apuntes,
-.nombre {
-  top: 332px;
-  left: 60px;
-}
-.nombre {
+
   top: 163px;
   left: 63px;
 }
@@ -144,6 +190,92 @@
   height: 35px;
   object-fit: cover;
 }
+
+.back-1-icon,
+.question-1-icon {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.back-1-icon {
+  top: 23px;
+  left: 297px;
+  height: 34.5px;
+}
+.microphone-1-icon{
+  top: 740px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.check-1-icon {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+}
+
+.android-large-1-child9 {
+  position: absolute;
+
+  left: 57px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-rosybrown);
+  width: 240px;
+  height: 50px;
+  top: 497px;
+}
+
+.calcula{
+  font-weight: 600;
+  font-size:medium;
+  left: 74px;
+  top: 512px;
+}
+
+.rectangle-div {
+  position: absolute;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-pink-200);
+  width: 275px;
+  height: 88px;
+  top: 573px;
+  left: 36px;
+}
+
+.pl {
+  position: absolute;
+  left: 79px;
+  font-weight: 600;
+  top: 602px;
+}
+
+.h1 {
+  position: absolute;
+  font-weight: 600;
+  top: 602px;
+  left: 247px;
+}
+
+.android-large-1-child10{
+  position: absolute;
+  top: 135px;
+  left: 217px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-lavenderblush);
+  width: 98px;
+  height: 87px;
+}
+
+.android-large-1-child10 {
+  top: 573px;
+  left: 213px;
+}
+
 .android-large-3-child9 {
   position: absolute;
   top: 41px;
@@ -154,7 +286,6 @@
   height: 27px;
 }
 .bibliotecas2 {
-  position: absolute;
   top: 45px;
   left: 136px;
   font-size: var(--font-size-base);

@@ -34,11 +34,7 @@
   height: 90px;
 }
 .back-2-icon {
-  position: absolute;
-  top: 23px;
-  left: 297px;
-  width: 45px;
-  height: 34.5px;
+  height: 32px;
   object-fit: cover;
 }
 .android-large-2-child2 {
@@ -61,6 +57,11 @@
   font-weight: 600;
   text-align: center;
 }
+
+.texto-central {
+  position: absolute;
+}
+
 .select {
   position: relative;
   line-height: 150%;
@@ -179,20 +180,14 @@
   color: var(--text-inactive);
   font-family: var(--small-size-body-regular);
 }
-.check-1-icon,
-.question-2-icon {
-  position: absolute;
-  top: 672px;
-  left: 155px;
+.check-1-icon{
   width: 50px;
   height: 50px;
   object-fit: cover;
 }
 .question-2-icon {
-  top: 18px;
-  left: 18px;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
 }
 .android-large-2-child3 {
   position: absolute;
@@ -204,7 +199,6 @@
   height: 27px;
 }
 .bibliotecas1 {
-  position: absolute;
   top: 45px;
   left: 137px;
   font-size: var(--font-size-base);

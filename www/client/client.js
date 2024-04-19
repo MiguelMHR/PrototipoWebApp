@@ -1,6 +1,6 @@
 // ----- Conexión Inicial Socket.io ----- //
-const socket = io('http://localhost:3000');
-socket.on('connection');
+//const socket = io('http://localhost:3000');
+//socket.on('connection');
 
 // ----- Definicion de clases e ids ----- //
 // Asignaturas - Lista de tareas
@@ -8,6 +8,7 @@ let asignaturas = document.querySelectorAll('.asignaturas li');
 let ayuda = document.querySelector('.icono_interrogacion');
 let atras = document.querySelector('.icono_atras');
 let microfono = document.querySelector('.icono_microfono');
+let bot_biblio = document.querySelector('.bibliotecas');
 
 // ----- Variables de control ----- //
 let startX, startY, distX, distY;
@@ -102,6 +103,13 @@ atras.addEventListener('touchstart', () => {
     window.location.href = '/logout';
 });
 
+bot_biblio.addEventListener('touchstart', () => {
+    navigator.vibrate(100);
+    window.location.href = '/client/library.html';
+}); 
+
+
+
 // ----- Reconocimiento de voz ----- //
 let grabacion = false;
 
@@ -169,6 +177,10 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
             asignaturas.forEach(asignatura => {
                 lectura(asignatura.textContent);
             });
+        }
+        else if (text == 'bibliotecas') {
+            lectura('Bibliotecas cercanas');
+            window.location.href = '/client/library.html';
         }
         else {
             lectura(text);

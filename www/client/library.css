@@ -1,4 +1,4 @@
-.android-large-4-child {
+.fondo_pag_bibliotecas {
   position: absolute;
   top: 0;
   left: 0;
@@ -25,8 +25,8 @@
 .android-large-4-inner {
   left: 292px;
 }
-.back-1-icon2,
-.question-1-icon2 {
+.icono_atras_b,
+.icono_interrogacion {
   position: absolute;
   top: 18px;
   left: 18px;
@@ -34,12 +34,12 @@
   height: 45px;
   object-fit: cover;
 }
-.back-1-icon2 {
+.icono_atras_b {
   top: 23px;
   left: 297px;
   height: 34.5px;
 }
-.android-large-4-child1 {
+.fondo_refrescar {
   position: absolute;
   top: 41px;
   left: 111px;
@@ -54,19 +54,19 @@
   left: 141px;
   font-size: var(--font-size-base);
 }
-.popo-1-icon {
+.mapa {
   position: absolute;
   top: 81px;
   left: 0;
   width: 360px;
-  height: 719px;
+  height: 629px;
   object-fit: cover;
 }
-.android-large-4 {
+.estructura_general {
   width: 100%;
   position: relative;
   background-color: var(--white);
-  height: 800px;
+  height: 710px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-5xl);
