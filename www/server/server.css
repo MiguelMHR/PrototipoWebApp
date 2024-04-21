@@ -247,3 +247,83 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
+
+.menu-btn, .close-btn {
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.menu-btn {
+  display: block;
+}
+
+.close-btn {
+  display: none;
+}
+
+.menu {
+  border-radius: 25px;
+  width: 300px;
+  background-color: var(--color-rosybrown);
+  position: fixed;
+  top: 0;
+  left: -300px;
+  height: 100%;
+  padding-top: 60px;
+  transition: left 0.3s ease;
+}
+
+#menu-toggle:checked ~ .menu {
+  left: 0;
+}
+
+#menu-toggle:checked ~ .menu .menu-btn {
+  display: none;
+}
+
+#menu-toggle:checked ~ .menu .close-btn {
+  display:none;
+}
+
+.reward-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reward {
+  width: 86%;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.reward-name p, .reward-cost p {
+  margin: 0;
+}
+
+.reward-cost {
+  display:flex;
+}
+
+.reward-cost button {
+  margin-left: auto;
+  background-color: var(--color-rosybrown);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+	

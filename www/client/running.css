@@ -1,4 +1,4 @@
-.android-large-7-child {
+.rectangulo_arriba {
   position: absolute;
   top: 0;
   left: 0;
@@ -6,8 +6,8 @@
   width: 360px;
   height: 81px;
 }
-.android-large-7-inner,
-.android-large-7-item {
+.rectangulo_abajo,
+.resumen_asignatura {
   position: absolute;
   top: 296px;
   left: -4px;
@@ -15,7 +15,7 @@
   width: 360px;
   height: 463px;
 }
-.android-large-7-inner {
+.rectangulo_abajo {
   top: 719px;
   left: 0;
   background-color: var(--color-pink-100);
@@ -27,8 +27,8 @@
   left: 94px;
   font-weight: 600;
 }
-.android-large-7-child1,
-.android-large-7-child2 {
+.rectangulo_asignaturas,
+.rectangulo_horas {
   position: absolute;
   top: 329px;
   left: 21px;
@@ -37,60 +37,52 @@
   width: 316px;
   height: 368px;
 }
-.android-large-7-child2 {
+.rectangulo_horas {
   left: 241px;
   background-color: var(--color-lavenderblush);
   width: 96px;
   height: 367px;
 }
-.android-large-7-child3 {
+.fondo_interrogacion {
   top: 13px;
   left: 13px;
   border-radius: 50%;
   background-color: var(--color-rosybrown);
 }
-.android-large-7-child3,
-.android-large-7-child4,
+.fondo_interrogacion,
+.fondo_atras,
 .ellipse-icon {
   position: absolute;
   width: 55px;
   height: 55px;
 }
-.android-large-7-child4 {
+.fondo_atras {
   top: 13px;
   left: 292px;
   border-radius: 50%;
   background-color: var(--color-rosybrown);
 }
-.android-large-1-child6,
 .ellipse-icon {
-  position: absolute;
   top: 732px;
-  left: 140px;
-  border-radius: 50%;
-  background-color: var(--color-rosybrown);
-  width: 55px;
-  height: 55px;
+  left: 150px;
 }
-
-.microphone-1-icon
-{
-  width: 40px;
-  height: 40px;
+.icono_atras,
+.icono_microfono,
+.icono_interrogacion {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 45px;
+  height: 45px;
   object-fit: cover;
 }
-.back-1-icon3,
-.microphone-1-icon1,
-.question-1-icon3 {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
+.icono_atras,
+.icono_microfono {
+  top: 23px;
+  left: 297px;
+  height: 34.5px;
 }
-.back-1-icon3,
-.microphone-1-icon1 {
-  height: 32px;
-}
-.microphone-1-icon1 {
+.icono_microfono {
   top: 740px;
   left: 160px;
   width: 40px;
@@ -157,7 +149,7 @@
   left: 246px;
   width: 110px;
 }
-.android-large-7-child5 {
+.rectangulo_bibliotecas {
   position: absolute;
   top: 44px;
   left: 110px;
@@ -166,7 +158,8 @@
   width: 137px;
   height: 27px;
 }
-.bibliotecas4 {
+.bibliotecas {
+  position: absolute;
   top: 48px;
   left: 135px;
   font-size: var(--font-size-base);
@@ -222,7 +215,7 @@
   width: 70px;
   height: 34px;
 }
-.android-large-7 {
+.estructura_general {
   width: 100%;
   position: relative;
   background-color: var(--color-darkslategray-100);

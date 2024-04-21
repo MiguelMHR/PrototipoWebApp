@@ -25,7 +25,7 @@ app.get('/desktop', (req, res) => {
 });
 // Para el movil (http://localhost:3000/movil):
 app.get('/movil', (req, res) => {
-  fs.readFile(path.join(__dirname, 'www/client/home.html'), 'utf-8', (err, text) => {
+  fs.readFile(path.join(__dirname, 'www/client/index.html'), 'utf-8', (err, text) => {
     res.send(text);     // Envía todo el texto leído del archivo HTML al navegador
   });
 });

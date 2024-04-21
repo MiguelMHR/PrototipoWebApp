@@ -18,22 +18,31 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
     />
+    <!-- API Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- API Notie -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css"/>
+    <style>.notie-container {box-shadow: none}</style>
+    <!-- API Socket.io-->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
   </head>
   <body>
-    <div class="android-large-7">
-      <div class="android-large-7-child"></div>
-      <div class="android-large-7-item"></div>
-      <div class="android-large-7-inner"></div>
+    <div class="estructura_general">
+      <div class="rectangulo_arriba"></div>
+      <div class="resumen_asignatura"></div>
+      <div class="rectangulo_abajo"></div>
       <div class="sesin-estudio1">Sesión estudio</div>
-      <div class="android-large-7-child1"></div>
-      <div class="android-large-7-child2"></div>
-      <button class="android-large-7-child3"><img class="question-1-icon3" alt="" src="../img/question-1@2x.png" /></button>
-      <button class="android-large-7-child4"><img class="back-1-icon3" alt="" src="../img/back-1@2x.png" /></button>
-      <button class="android-large-1-child6">      <img
-        class="microphone-1-icon"
-        alt=""
-        src="../img/microphone-1@2x.png"
-      /></button>
+      <div class="rectangulo_asignaturas"></div>
+      <div class="rectangulo_horas"></div>
+      <div class="fondo_interrogacion"></div>
+      <div class="fondo_atras"></div>
+
+
+      <img class="ellipse-icon" alt="" src="../img/ellipse-5.svg" />
+      <img class="icono_interrogacion" alt="" src="../img/question-1@2x.png" />
+      <img class="icono_atras" alt="" src="../img/back-1@2x.png" />
+      <img class="icono_microfono" alt="" src="../img/microphone-1@2x.png"/>
+
 
       <div class="pl2">PL</div>
       <div class="siu1">SIU</div>
@@ -42,13 +51,17 @@
       <div class="h2">1H</div>
       <div class="h3">2H</div>
       <div class="h-12m1">1H 12M</div>
-      <button class="android-large-7-child5"><b class="bibliotecas4">Bibliotecas</b></button>
+      <div class="rectangulo_bibliotecas"></div>
+      <b class="bibliotecas">Bibliotecas</b>
       <div class="timer">
         <div class="timer-child"></div>
         <div class="timer-item"></div>
-        <div class="div2">32:10</div>
+        <div class="div2"></div>
       </div>
       <div class="m1">20M</div>
     </div>
+    <script src="./running.js"></script>
+    <!-- API Notie -->
+    <script src="https://unpkg.com/notie"></script>
   </body>
 </html>

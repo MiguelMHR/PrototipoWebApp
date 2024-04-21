@@ -1,4 +1,4 @@
-.android-large-2-child {
+.rectangulo_arriba {
   position: absolute;
   top: 0;
   left: 0;
@@ -12,9 +12,9 @@
   left: 92px;
   font-weight: 600;
 }
-.android-large-2-child1,
-.android-large-2-inner,
-.android-large-2-item {
+.fondo_check,
+.fondo_atras,
+.fondo_interrogacion {
   position: absolute;
   top: 13px;
   left: 13px;
@@ -23,21 +23,23 @@
   width: 55px;
   height: 55px;
 }
-.android-large-2-child1,
-.android-large-2-inner {
+.fondo_check,
+.fondo_atras {
   left: 292px;
 }
-.android-large-2-child1 {
+.fondo_check {
   top: 649px;
   left: 135px;
   width: 90px;
   height: 90px;
 }
-.back-2-icon {
+.icono_atras {
+  margin-top: 9px;
+  margin-left: 6px;
   height: 32px;
   object-fit: cover;
 }
-.android-large-2-child2 {
+.cuadrado_texto {
   position: absolute;
   top: 187px;
   left: 37px;
@@ -58,118 +60,37 @@
   text-align: center;
 }
 
-.texto-central {
-  position: absolute;
+.time-picker {
+  display: flex;
+  align-items: center;
 }
 
-.select {
-  position: relative;
-  line-height: 150%;
+.time-picker select {
+  margin-top: 50px;
+  padding: 12px; /* Aumento del tamaño del padding para hacer los selectores más grandes */
+  margin-right: 10px; /* Espacio entre los selectores */
+  border-radius: 10px; /* Aumento del radio de las esquinas */
+  border: 1px solid #ccc; /* Borde para definir la apariencia */
+  font-size: 16px; /* Aumento del tamaño del texto */
 }
-.frame-child {
-  width: 1px;
-  position: relative;
-  border-right: 1px solid var(--text-medium);
-  box-sizing: border-box;
-  height: 21px;
-  display: none;
+
+span {
+  margin-top: 50px;
+  margin-right:13px ;
 }
-.select-parent {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
+
+.time-picker select:last-child {
+  margin-right: 0;
 }
-.ic-expand-more-48px-icon {
-  width: 16px;
-  position: relative;
-  height: 16px;
-  overflow: hidden;
-  flex-shrink: 0;
+
+.time-picker select:focus {
+  outline: none;
 }
-.frame-parent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-9xs);
-}
-.dropdown-and-multiselect {
-  border-radius: var(--br-9xs);
-  background-color: var(--white);
-  box-shadow: var(--bootstrap-focused);
-  border: 1px solid var(--primary-focused);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: var(--padding-9xs);
-}
-.div {
-  position: relative;
-  line-height: 150%;
-  font-weight: 500;
-}
-.wrapper {
-  color: var(--text-medium);
-}
-.frame-group,
-.select-wrapper,
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.frame-group {
-  align-items: center;
-  gap: var(--gap-9xs);
-}
-.dropdown-and-multiselect1 {
-  border-radius: var(--br-9xs);
-  background-color: var(--background-enable);
-  border: 1px solid var(--white);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: var(--padding-9xs);
-}
-.container,
-.dropdown-and-multiselect2 {
-  display: none;
-  align-items: flex-start;
-  font-size: var(--small-size-body-regular-size);
-}
-.container {
-  flex-direction: row;
-  justify-content: flex-start;
-  color: var(--text-medium);
-}
-.dropdown-and-multiselect2 {
-  border-radius: var(--br-9xs);
-  background-color: var(--background-enable);
-  border: 1px solid var(--line-enable);
-  overflow: hidden;
-  flex-direction: column;
-  justify-content: center;
-  padding: var(--padding-9xs);
-}
-.time-picker {
-  width: 133px;
-  height: 211px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 16px;
-}
+
 .time-picker-wrapper {
   position: absolute;
   top: 423px;
-  left: 63px;
+  left: 77px;
   width: 200px;
   height: 249px;
   display: flex;
@@ -180,16 +101,20 @@
   color: var(--text-inactive);
   font-family: var(--small-size-body-regular);
 }
-.check-1-icon{
+.icono_check {
+  margin-top: 17px;
+  margin-left: 20px;
   width: 50px;
   height: 50px;
   object-fit: cover;
 }
-.question-2-icon {
+.icono_interrogacion {
+  margin-top: 7px;
+  margin-left: 6px;
   width: 40px;
   height: 40px;
 }
-.android-large-2-child3 {
+.rectangulo_bibliotecas {
   position: absolute;
   top: 41px;
   left: 112px;
@@ -199,11 +124,12 @@
   height: 27px;
 }
 .bibliotecas1 {
+  margin-left: 22px;
   top: 45px;
   left: 137px;
   font-size: var(--font-size-base);
 }
-.android-large-2 {
+.estructura_general {
   width: 100%;
   position: relative;
   background-color: var(--color-darkslategray-100);

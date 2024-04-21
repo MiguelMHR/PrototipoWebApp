@@ -2,8 +2,8 @@
 
 ## Roles
 
-* **Belén**: Front-end y funciones auxiliares sencillas
-* **Jana**: Front-end y funciones auxiliares sencillas
+* **Belén**: Front-end completo (movil y ordenador) 
+* **Jana**: Front-end móvil
 * **Miguel**: Back-end -> funciones del sistema y gestión del server (NodeJS, Socket.io y ExpressJS)
 * **Jose**: Back-end -> funciones del sistema
 
@@ -56,8 +56,8 @@
 
 ## **Cosas extras a añadir no contempladas:**
 
-* Se debe añadir un botón en el desktop que enseñe una mini-pantalla de recompensas para satisfacer ese requerimiento
-* Se debe añadir una pantalla HTML en el desktop que muestre un mensaje de "esperando sesión de estudio" hasta que el cliente envíe la sesión de estudio
+* Se debe añadir un botón en el desktop que enseñe una mini-pantalla de recompensas para satisfacer ese requerimiento✅
+* Se pretende añadir una pantalla HTML en el desktop que muestre un mensaje de "esperando sesión de estudio" hasta que el cliente envíe la sesión de estudio🔄
 
 ## ¿Cómo ejecutar el proyecto?
 
@@ -76,4 +76,26 @@
       * Si no funciona, puedes conectar el móvil con cable, activar la depuración USB y conectar, desde el ordenador, el móvil cuando aparezca la opción en **verde**
     * Una vez conectado, debes introducir, desde el móvil, el enlace siguiente : **`http://localhost:3000/movil`**
 
-## Funcionalidades P1 - incluidas y no incluídas
+## Funcionalidades P1 - incluidas y no incluídas:
+
+De las funcionalidades mencionadas previamente y en el P1 se han conseguido implementar las siguientes:
+
+* **Funcionalidad ubicua:**
+  * Voice API para ejecutar comandos de voz y acciones de callback (lectura asignaturas, notificaciones, etc)
+  * Sensor API para eliminar las asignaturas de la sesión de estudio agitando el móvil
+  * Touch API para reorganizar la sesión de estudio
+  * Vibracion al interaccionar con cualquier botón de la aplicación
+* **Accesibilidad y sistema de recompensas:**
+  * Botón de ayuda presente en cada pestaña del móvil junto con un texto de ayuda en forma de notificación
+  * Botón localizado arriba a la izquierda en la pantalla del ordenador con ciertas opciones desbloqueables según las horas de estudio acumuladas por el usuario
+* **Funcionamiento básico del sistema:**
+  * Navegación completa entre HTMLs mediante botones y comandos de voz
+  * Uso del temporizador al crear la sesión de estudio
+    * Pausa y reanudación con comandos de voz
+  * Creación de las asignaturas de la sesión de estudio
+  * Cálculo del tiempo de estudio en base a las páginas introducidas
+  * Resumen de la sesión de estudio en base a las asignaturas creadas
+* **Funcionalidades no implementadas:**
+  * Uso de la API de geolocalización para mostrar las bibliotecas cercanas
+    * Únicamente la pestaña de bibliotecas con una imágen estática de lo que sería en un futuro esta función
+  * Sistema de manejo de PDF y de cálculo del tiempo de estudio al subir los PDFs a la aplicación

@@ -1,59 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <link rel="stylesheet" href='../global.css' />
-    <link rel="stylesheet" href='./server.css' />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
-    />
-  </head>
-  <body>
-    <div class="desktop-1">
-      <div class="timer1">
-        <div class="timer-inner"></div>
-        <div class="timer-child1"></div>
-        <div class="div3">32:10</div>
-      </div>
-      <div class="desktop-1-child"></div>
-      <div class="desktop-1-item"></div>
-      <img class="pause-2-icon" alt="" src="../img/pause-2@2x.png" />
-
-      <div class="desktop-1-inner"></div>
-      <div class="desktop-1-child1"></div>
-      <div class="sesin-de-estudio">Sesión de estudio</div>
-      <div class="text"></div>
-      <div class="desktop-1-child2"></div>
-      <div class="estudia-el-pasado-container">
-        <p class="estudia-el-pasado">“Estudia el pasado si quieres</p>
-        <p class="estudia-el-pasado"></p>
-        <p class="estudia-el-pasado">intuir el futuro”</p>
-      </div>
-      <div class="resumen">Resumen</div>
-      <div class="desktop-1-child3"></div>
-      <img class="rectangle-icon" alt="" src="../img/rectangle-33.svg" />
-
-      <div class="desktop-1-child4"></div>
-      <div class="pl3">PL</div>
-      <div class="siu2">SIU</div>
-      <div class="sd2">SD</div>
-      <div class="aa2">AA</div>
-      <div class="m2">20M</div>
-      <div class="h5">1H</div>
-      <div class="h6">2H</div>
-      <div class="h-12m2">1H 12M</div>
-      <img class="play-2-icon" alt="" src="../img/play-2@2x.png" />
+  <link rel="stylesheet" href='../global.css' />
+  <link rel="stylesheet" href='./server.css' />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" />
+</head>
+<body>
+  <div class="desktop-1">
+    <div class="timer1">
+      <div class="timer-inner"></div>
+      <div class="timer-child1"></div>
+      <div class="div3">32:10</div>
     </div>
-  </body>
+    <div class="desktop-1-child"></div>
+    <div class="desktop-1-item"></div>
+    <img class="pause-2-icon" alt="" src="../img/pause-2@2x.png" />
+
+    <div class="desktop-1-inner"></div>
+    <div class="desktop-1-child1"></div>
+    <div class="sesin-de-estudio">Sesión de estudio</div>
+    <div class="text"></div>
+    <div class="desktop-1-child2"></div>
+    <div class="estudia-el-pasado-container">
+      <p class="estudia-el-pasado">“Estudia el pasado si quieres</p>
+      <p class="estudia-el-pasado">intuir el futuro”</p>
+    </div>
+    <div class="resumen">Resumen</div>
+    <div class="desktop-1-child3"></div>
+    <img class="rectangle-icon" alt="" src="../img/rectangle-33.svg" />
+
+    <div class="desktop-1-child4"></div>
+    <div class="pl3">PL</div>
+    <div class="siu2">SIU</div>
+    <div class="sd2">SD</div>
+    <div class="aa2">AA</div>
+    <div class="m2">20M</div>
+    <div class="h5">1H</div>
+    <div class="h6">2H</div>
+    <div class="h-12m2">1H 12M</div>
+    <img class="play-2-icon" alt="" src="../img/play-2@2x.png" />
+
+    <input type="checkbox" id="menu-toggle" style="
+    visibility: collapse;">
+    <label for="menu-toggle" class="menu-btn">&#9776;</label>
+    <nav class="menu">
+        <label for="menu-toggle" class="close-btn">&times;</label>
+        <div class="reward-user">
+            <div class="reward">
+                <div class="reward-name">
+                    <p>Sin Anuncios</p>
+                </div>
+                <div class="reward-cost">
+                    <p>1h</p>
+                    <button>Reclamar</button>
+                </div>
+            </div>
+            <div class="reward">
+                <div class="reward-name">
+                    <p>Modo Oscuro</p>
+                </div>
+                <div class="reward-cost">
+                    <p>3h</p>
+                    <button>Reclamar</button>
+                    
+                </div>
+            </div>
+            <div class="reward">
+                <div class="reward-name">
+                    <p>Música</p>
+                </div>
+                <div class="reward-cost">
+                    <p>6h</p>
+                    <button>Reclamar</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+  </div>
+</body>
 </html>

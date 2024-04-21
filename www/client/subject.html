@@ -18,45 +18,75 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
     />
+    <!-- API Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- API Notie -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css"/>
+    <style>.notie-container {box-shadow: none}</style>
+    <!-- API Socket.io-->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
   </head>
   <body>
-    <div class="android-large-3">
-      <div class="android-large-3-child"></div>
+    <div class="estructura_general">
+      <!-- Navbars fondos-->
+      <div class="rectangulo_arriba"></div>
+      <div class="rectangulo_abajo"></div>
+
       <div class="asignatura">Asignatura</div>
-      <button class="android-large-3-item"><img class="question-1-icon1" alt="" src="../img/question-1@2x.png" /></button>
-      <div class="android-large-1-item"></div>
-      <button class="android-large-3-inner"><img class="back-1-icon1" alt="" src="../img/back-1@2x.png" /></button>
 
-      <div class="android-large-3-child1"></div>
-      <div class="android-large-3-child2"></div>
+      <!-- fondos iconos-->
+      <div class="fondo_interrogacion"></div>
+      <div class="fondo_atras"></div>
+      <div class="fondo_microfono"></div>
+      <div class="fondo_check"></div>
+
+
+      <img class="icono_interrogacion" alt="" src="../img/question-1@2x.png" />
+      <img class="icono_atras" alt="" src="../img/back-1@2x.png" />
+      <img class="icono_microfono" alt="" src="../img/microphone-1@2x.png" />
+      <img class="check-1-icon" alt="" src="../img/check-2@3x.png" />
+
+      <!-- rectangulos seleccion-->
+      <div class="rectangulo_nombre"></div>
+      <div class="rectangulo_nombre2"></div>
       <div class="nombre">Nombre</div>
-      <div class="android-large-3-child7" data-scroll-to="rectangle"></div>
-
-      <div class="android-large-3-child11"></div>
-      <div class="android-large-3-child12"></div>
-      <div class="nombre2">Nº páginas</div>
-      <div class="android-large-3-child13" data-scroll-to="rectangle"></div>
-      
-
-      <button class="android-large-1-child4">    <img
-        class="microphone-1-icon"
-        alt=""
-        src="../img/microphone-1@2x.png"
-      /></button>
-      <button class="android-large-1-child6"><img class="check-1-icon" alt="" src="../img/check-2@3x.png" /></button>
-
-      <button class="android-large-1-child9"><div class="calcula">Calcula tiempo de estudio</div></button>
-
-      <div class="rectangle-div"></div>
-      <div class="android-large-1-child10"></div>
-      <div class="pl">PL</div>
-      <div class="h1">2H</div>
-
-
-
-      <button class="android-large-3-child9"><b class="bibliotecas2">Bibliotecas</b></button>
-      <div class="pl1" id="pLText">PL</div>
-      <img class="down-arrow-1-icon" alt="" src="../img/downarrow-1@2x.png" />
+      <div class="rect_peque_nombre" data-scroll-to="rectangle">
+        <input type="text" id="nombre_peque_intro" name="nombre_peque_intro" placeholder="Introduce un texto">
     </div>
+
+      <div class="num_paginas"></div>
+      <div class="num_paginas2"></div>
+      <div class="n_pags">Nº páginas</div>
+      <div class="rect_peque_n_pags" data-scroll-to="rectangle"></div>
+      <div class="time-picker-wrapper">
+        <div class="time-picker">
+          <select id="paginas" name="paginas">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <!-- Otras opciones de horas -->
+          </select>
+        </div>
+      </div>
+    
+      <div class="rectangulo_calculo"></div>
+      <div class="calcula">Calcula tiempo de estudio</div>
+
+      <div class="rectangulo_final"></div>
+      <div class="tiempo_final"></div>
+      <div class="pl" id = 'pl'></div>
+      <div class="horas" id = 'horas'></div>
+
+
+      <div class="fondo_bibliotecas"></div>
+      <b class="bibliotecas2">Bibliotecas</b>
+      <div class="pl1"></div>
+    </div>
+    <script src="./subject.js"></script>
+    <!-- API Notie -->
+    <script src="https://unpkg.com/notie"></script>
   </body>
 </html>

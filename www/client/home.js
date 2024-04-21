@@ -9,6 +9,8 @@ let ayuda = document.querySelector('.icono_interrogacion');
 let atras = document.querySelector('.icono_atras');
 let microfono = document.querySelector('.icono_microfono');
 let bot_biblio = document.querySelector('.bibliotecas');
+let mas = document.querySelector('.icono_plus');
+let play = document.querySelector('.icono_play');
 
 // ----- Variables de control ----- //
 let startX, startY, distX, distY;
@@ -100,12 +102,22 @@ ayuda.addEventListener('touchstart', () => {
 
 atras.addEventListener('touchstart', () => {
     navigator.vibrate(100);
-    window.location.href = '/logout';
+    window.history.back();
 });
 
 bot_biblio.addEventListener('touchstart', () => {
     navigator.vibrate(100);
     window.location.href = '/client/library.html';
+}); 
+
+mas.addEventListener('touchstart', () => {
+    navigator.vibrate(100);
+    window.location.href = '/client/subject.html';
+}); 
+
+play.addEventListener('touchstart', () => {
+    navigator.vibrate(100);
+    window.location.href = '/client/running.html';
 }); 
 
 
@@ -178,9 +190,24 @@ if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
                 lectura(asignatura.textContent);
             });
         }
+        else if (text == 'favoritos') {
+            lectura('Se ha guardado la sesión de estudio en favoritos');
+        }
         else if (text == 'bibliotecas') {
             lectura('Bibliotecas cercanas');
             window.location.href = '/client/library.html';
+        }
+        else if (text == 'borrar') {
+            lectura('Borrando');
+            let lista = document.querySelector('.asignaturas');
+            let asignaturas = lista.getElementsByTagName('li');
+            let asignaturasArray = Array.from(asignaturas);
+            // Eliminar el ultimo 
+            asignaturasArray.pop();
+            // Refrescar la lista
+            lista.innerHTML = '';
+            asignaturasArray.forEach(elemento => {
+            lista.appendChild(elemento);});
         }
         else {
             lectura(text);
@@ -218,3 +245,23 @@ window.addEventListener('devicemotion', function(event) {
         });
     };
 });
+
+// añadir asignatura a lista
+/*document.addEventListener('DOMContentLoaded', function() {
+    const asignaturas = JSON.parse(localStorage.getItem('asignaturas')) || [];
+    const ulAsignaturas = document.querySelector('.asignaturas');
+
+    asignaturas.forEach(asig => {
+        const li = document.createElement('li');
+        li.textContent = asig.nombre;
+        
+        const divTiempo = document.createElement('div');
+        divTiempo.className = 'tiempo';
+        divTiempo.textContent = asig.tiempo;
+        
+        li.appendChild(divTiempo);
+        ulAsignaturas.appendChild(li);
+    });
+});
+*/
+

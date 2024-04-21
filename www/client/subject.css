@@ -1,4 +1,4 @@
-.android-large-3-child {
+.rectangulo_arriba {
   position: absolute;
   top: 0;
   left: 0;
@@ -12,8 +12,8 @@
   left: 117px;
   font-weight: 600;
 }
-.android-large-3-inner,
-.android-large-3-item {
+.fondo_atras,
+.fondo_interrogacion{
   position: absolute;
   top: 13px;
   left: 13px;
@@ -23,7 +23,7 @@
   height: 55px;
 }
 
-.nombre2{
+.n_pags{
   position: absolute;
   font-weight: 600;
 
@@ -31,8 +31,8 @@
   left: 63px;
 }
 
-.android-large-3-child11,
-.android-large-3-child12 {
+.num_paginas,
+.num_paginas2 {
   position: absolute;
   top: 250px;
   left: 40px;
@@ -42,36 +42,43 @@
   height: 88px;
 }
 
-.android-large-3-child12 {
+.num_paginas2 {
   top: 250x;
 }
 
 
-.android-large-1-item {
+.rectangulo_abajo {
   position: absolute;
-  top: 719px;
+  top: 0;
   left: 0;
   background-color: var(--color-mistyrose);
   width: 360px;
   height: 81px;
 }
+.rectangulo_abajo {
+  top: 719px;
+  background-color: var(--color-pink-100);
+}
 
-
-.android-large-3-inner {
+.fondo_atras {
   left: 292px;
 }
-.back-1-icon1{
-  height: 32px;
+.icono_atras,
+.icono_interrogacion {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 45px;
+  height: 45px;
   object-fit: cover;
 }
-.question-1-icon1 {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
+.icono_atras {
+  top: 23px;
+  left: 297px;
+  height: 34.5px;
 }
-
-.android-large-3-child1,
-.android-large-3-child2,
+.rectangulo_nombre,
+.rectangulo_nombre2,
 .android-large-3-child3 {
   position: absolute;
   top: 133px;
@@ -81,24 +88,22 @@
   height: 88px;
 }
 
-.android-large-3-child13,
+.rect_peque_n_pags,
 .android-large-3-child8 {
   position: absolute;
   background-color: var(--color-rosybrown);
 }
-.android-large-3-child13 {
+.rect_peque_n_pags {
   top: 270px;
   left: 200px;
   border-radius: var(--br-21xl);
   width: 100px;
   height: 46px;
 }
-
-
-.android-large-3-child1 {
+.rectangulo_nombre {
   background-color: #d9d9d9;
 }
-.android-large-3-child2,
+.rectangulo_nombre2,
 .android-large-3-child3 {
   background-color: var(--color-pink-100);
 }
@@ -133,9 +138,9 @@
   left: 176px;
 }
 
-.android-large-1-child4,
+.fondo_microfono,
 .android-large-1-child5,
-.android-large-1-child6,
+.fondo_check,
 .ellipse-div {
   position: absolute;
   top: 13px;
@@ -145,12 +150,12 @@
   width: 55px;
   height: 55px;
 }
-.android-large-1-child4,
-.android-large-1-child6 {
+.fondo_microfono,
+.fondo_check {
   top: 732px;
   left: 13px;
 }
-.android-large-1-child6 {
+.fondo_check {
   left: 292px;
 }
 
@@ -163,12 +168,12 @@
   top: 163px;
   left: 63px;
 }
-.android-large-3-child7,
+.rect_peque_nombre,
 .android-large-3-child8 {
   position: absolute;
   background-color: var(--color-rosybrown);
 }
-.android-large-3-child7 {
+.rect_peque_nombre {
   top: 153px;
   left: 180px;
   border-radius: var(--br-21xl);
@@ -191,21 +196,10 @@
   object-fit: cover;
 }
 
-.back-1-icon,
-.question-1-icon {
+.icono_microfono,
+
+.check-1-icon {
   position: absolute;
-  top: 18px;
-  left: 18px;
-  width: 45px;
-  height: 45px;
-  object-fit: cover;
-}
-.back-1-icon {
-  top: 23px;
-  left: 297px;
-  height: 34.5px;
-}
-.microphone-1-icon{
   top: 740px;
   left: 20px;
   width: 40px;
@@ -214,12 +208,19 @@
 }
 
 .check-1-icon {
-  height: 35px;
+  top: 739px;
+  left: 166px;
   width: 35px;
-  object-fit: cover;
+  height: 41.5px;
 }
 
-.android-large-1-child9 {
+.check-1-icon {
+  top: 742px;
+  left: 302px;
+  height: 35px;
+}
+
+.rectangulo_calculo {
   position: absolute;
 
   left: 57px;
@@ -231,13 +232,14 @@
 }
 
 .calcula{
+  position: absolute;
   font-weight: 600;
   font-size:medium;
   left: 74px;
   top: 512px;
 }
 
-.rectangle-div {
+.rectangulo_final {
   position: absolute;
   border-radius: var(--br-6xl);
   background-color: var(--color-pink-200);
@@ -254,14 +256,14 @@
   top: 602px;
 }
 
-.h1 {
+.horas {
   position: absolute;
   font-weight: 600;
   top: 602px;
   left: 247px;
 }
 
-.android-large-1-child10{
+.tiempo_final{
   position: absolute;
   top: 135px;
   left: 217px;
@@ -271,12 +273,12 @@
   height: 87px;
 }
 
-.android-large-1-child10 {
+.tiempo_final {
   top: 573px;
   left: 213px;
 }
 
-.android-large-3-child9 {
+.fondo_bibliotecas {
   position: absolute;
   top: 41px;
   left: 111px;
@@ -286,6 +288,7 @@
   height: 27px;
 }
 .bibliotecas2 {
+  position: absolute;
   top: 45px;
   left: 136px;
   font-size: var(--font-size-base);
@@ -305,7 +308,7 @@
   height: 30px;
   object-fit: cover;
 }
-.android-large-3 {
+.estructura_general {
   width: 100%;
   position: relative;
   background-color: var(--color-darkslategray-100);
@@ -315,4 +318,67 @@
   font-size: var(--font-size-5xl);
   color: var(--color-black);
   font-family: var(--font-inter);
+}
+
+.rect_peque_n_pags, .time-picker-wrapper {
+  position: absolute;
+  top: 270px;
+  left: 200px;
+  width: 100px;
+  height: 46px;
+  border-radius: var(--br-21xl);
+}
+
+.time-picker select {
+  margin-top: 0; /* Ajustar para alinearse dentro del contenedor */
+  padding: 12px; /* Padding para hacer los selectores más grandes */
+  margin-right: 10px; /* Espacio entre los selectores */
+  border-radius: 10px; /* Aumento del radio de las esquinas */
+  border: 1px solid #ccc; /* Borde para definir la apariencia */
+  font-size: 16px; /* Tamaño del texto */
+  background-color: transparent; /* Fondo transparente para integrarse con el contenedor */
+  color: var(--text-active); /* Asegúrate de definir esta variable de color o cambiarla por un valor específico */
+}
+
+.time-picker select:last-child {
+  margin-right: 0;
+}
+
+.time-picker select:focus {
+  outline: none; /* Elimina el borde de enfoque para mantener un diseño limpio */
+}
+
+.time-picker-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centra los selectores verticalmente dentro del contenedor */
+  justify-content: center; /* Centra los selectores horizontalmente */
+  font-size: var(--font-size-base); /* Ajusta según la necesidad de visualización */
+  font-family: var(--font-family-base); /* Asegúrate de que esta variable de fuente esté definida o cámbiala por un valor específico */
+  color: var(--text-inactive); /* Ajusta el color del texto */
+}
+
+
+.rect_peque_nombre {
+  position: absolute;
+  top: 153px;
+  left: 180px; 
+  border-radius: var(--br-21xl);
+  width: 117px;
+  height: 46px;
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  padding: 0; /* Elimina el padding si es necesario */
+}
+
+.rect_peque_nombre input[type="text"] {
+  width: 100%; /* Hace que el input ocupe todo el ancho del div */
+  height: 100%; /* Hace que el input ocupe toda la altura del div */
+  padding: 0 10px; /* Añade algo de padding interno para el texto */
+  border-radius: inherit; /* Hereda el border-radius del div padre */
+  border: none; /* No border para integrarse mejor */
+  outline: none; /* Elimina el outline al enfocar */
+  font-size: 14px; /* Tamaño de fuente adecuado */
+  background-color: transparent; /* Fondo transparente */
 }
