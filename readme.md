@@ -88,6 +88,9 @@ De las funcionalidades mencionadas previamente y en el P1 se han conseguido impl
 * **Accesibilidad y sistema de recompensas:**
   * Botón de ayuda presente en cada pestaña del móvil junto con un texto de ayuda en forma de notificación
   * Botón localizado arriba a la izquierda en la pantalla del ordenador con ciertas opciones desbloqueables según las horas de estudio acumuladas por el usuario
+  * Sesiones de estudio y asignaturas favoritas mediante comandos de voz
+    * En la pestaña de asignatura, si se presiona el micrófono y se dice "favoritos", se mostrará una notificación simulando que se ha agregado la asignatura a favoritos
+    * En la pestaña de organización de la sesión de estudio, si se presiona el micrófono y se dice "favoritos", el móvil dirá en alto que la sesión se ha agregado a favoritos
 * **Funcionamiento básico del sistema:**
   * Navegación completa entre HTMLs mediante botones y comandos de voz
   * Uso del temporizador al crear la sesión de estudio
